@@ -33,13 +33,13 @@ img {
   margin: 5px 0;
 }
 
-.title {
+h3 {
   font-size: 1.2rem;
   letter-spacing: 3px;
   text-transform: capitalize;
 }
 
-button {
+.btn {
   padding: 5px 10px;
   font-size: 1rem;
   font-weight: 500;

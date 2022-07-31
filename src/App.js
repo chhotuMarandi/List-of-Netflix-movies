@@ -13,10 +13,9 @@ const App = () => {
           />
           <p className="platform">Netflix Original Series</p>
           <h3 className="title">Stranger Things</h3>
-          <button>
-            <a href="https://www.netflix.com/in/title/80057281"></a>
-            Watch Now
-          </button>
+          <a href="https://www.netflix.com/in/title/80057281">
+            <button class="btn">Watch Now</button>
+          </a>
         </div>
       </div>
     </div>
