@@ -7,6 +7,12 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  transition: transform 0.2s;
 }
 
 .header {
