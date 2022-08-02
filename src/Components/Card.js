@@ -1,16 +1,16 @@
 import React from 'react';
 import '../Components/Card.css';
+import SeriesList from './SeriesList';
 
-const Card = () => {
+console.log(SeriesList[0]);
+
+const Card = (props) => {
   return (
     <div className="card">
-      <img
-        src="https://assets-prd.ignimgs.com/2022/05/12/stranger-things-4-poster-1652364986162.jpeg"
-        alt=""
-      />
-      <p className="platform">Netflix Original Series</p>
-      <h3 className="title">Stranger Things</h3>
-      <a href="https://www.netflix.com/in/title/80057281">
+      <img src={props.img} alt="series img" />
+      <p className="platform">{props.platform}</p>
+      <h3 className="title">{props.title}</h3>
+      <a href={props.link}>
         <button class="btn">Watch Now</button>
       </a>
     </div>
