@@ -19,10 +19,31 @@
 }
 
 .cards {
-  height: 100vh;
+  height: 80vh;
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-around;
   flex-direction: row;
+}
+
+@media screen and (max-width: 720px) {
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+  }
+
+  .cards {
+    margin: 2rem;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2rem;
+  }
 }
