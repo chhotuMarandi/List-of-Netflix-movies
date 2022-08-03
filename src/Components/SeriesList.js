@@ -23,6 +23,12 @@ const SeriesList = [
     title: 'Narcos',
     link: 'https://www.netflix.com/in/title/80025172',
   },
+  {
+    img: 'https://cdnb.artstation.com/p/assets/images/images/049/558/087/large/ronny-paulo-ozark-poster-finalizado.jpg?1652783017',
+    platform: 'Netflix Original Series',
+    title: 'Ozark',
+    link: 'https://www.netflix.com/in/title/80117552',
+  },
 ];
 
 export default SeriesList;
