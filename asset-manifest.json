@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/List-of-Netflix-movies/static/css/main.f1786182.css",
-    "main.js": "/List-of-Netflix-movies/static/js/main.0bc8dc2c.js",
+    "main.js": "/List-of-Netflix-movies/static/js/main.a5fcd749.js",
     "index.html": "/List-of-Netflix-movies/index.html",
     "main.f1786182.css.map": "/List-of-Netflix-movies/static/css/main.f1786182.css.map",
-    "main.0bc8dc2c.js.map": "/List-of-Netflix-movies/static/js/main.0bc8dc2c.js.map"
+    "main.a5fcd749.js.map": "/List-of-Netflix-movies/static/js/main.a5fcd749.js.map"
   },
   "entrypoints": [
     "static/css/main.f1786182.css",
-    "static/js/main.0bc8dc2c.js"
+    "static/js/main.a5fcd749.js"
   ]
 }
