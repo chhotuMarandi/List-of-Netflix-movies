@@ -11,6 +11,12 @@ const SeriesList = [
     title: 'Dark',
     link: 'https://www.netflix.com/in/title/80100172',
   },
+  {
+    img: 'https://cdn.shopify.com/s/files/1/0969/9128/products/PeakyBlinders-ThomasShelby-GarrisonBombing-NetflixTVShow-ArtPoster_7fef60c1-eddd-41e8-89fd-ac6edeba5038.jpg?v=1619864662',
+    platform: 'Netflix Original Series',
+    title: 'Peaky Blinders',
+    link: 'https://www.netflix.com/in/title/80002479',
+  },
 ];
 
 export default SeriesList;
