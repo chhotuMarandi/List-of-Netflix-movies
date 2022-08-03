@@ -5,6 +5,15 @@ import SeriesList from './Components/SeriesList';
 
 console.log(SeriesList[0]);
 
+const slist = () => {
+  <Card
+    img={SeriesList[0].img}
+    platform={SeriesList[0].platform}
+    title={SeriesList[0].title}
+    link={SeriesList[0].link}
+  />;
+};
+
 const App = () => {
   return (
     <div className="main-container">
@@ -25,6 +34,8 @@ const App = () => {
             title={SeriesList[1].title}
             link={SeriesList[1].link}
           />
+
+          {SeriesList.map(slist)}
         </div>
       </div>
     </div>
