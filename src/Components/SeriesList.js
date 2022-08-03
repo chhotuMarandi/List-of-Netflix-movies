@@ -17,6 +17,12 @@ const SeriesList = [
     title: 'Peaky Blinders',
     link: 'https://www.netflix.com/in/title/80002479',
   },
+  {
+    img: 'https://i.pinimg.com/550x/4e/22/4d/4e224d7d8bac7b98cd303c6dfac5af60.jpg',
+    platform: 'Netflix Original Series',
+    title: 'Narcos',
+    link: 'https://www.netflix.com/in/title/80025172',
+  },
 ];
 
 export default SeriesList;
